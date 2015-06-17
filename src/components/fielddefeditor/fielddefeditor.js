@@ -27,6 +27,7 @@ angular.module('polestar')
         scope.Dataset = Dataset;
         scope.typeNames = Dataset.typeNames;
         scope.pills = Pills.pills;
+        scope.allowedTypes = [];
 
         function fieldPill(){
           return Pills.pills[scope.encType];
